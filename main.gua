@@ -1,0 +1,12 @@
+con Student = class() {
+    con new = function(name: string, height: int) {
+        var this.name: string = name
+        var this.height: int = height
+    }
+}
+
+
+con __main = function() {
+    var s = Student.new("gua", 169)
+    log(s.height)
+}
